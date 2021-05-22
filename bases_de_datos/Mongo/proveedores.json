@@ -1,0 +1,107 @@
+[
+    {
+        "materiales": "Cementos",
+        "unidadMed": "m3",
+        "precioUM": 1.71,
+        "tipo": "Cementera/hormigonera",
+        "nombre": "Hormigoneras Las Torres",
+        "variacion": "-6.00%",
+        "precio": 17
+    },
+    {
+        "materiales": "Ventanas",
+        "unidadMed": "m2",
+        "precioUM": 17.5,
+        "tipo": "Carpintería",
+        "nombre": "Luzysol",
+        "variacion": "-1.00%",
+        "precio": 546
+    },
+    {
+        "materiales": "Ascensores",
+        "unidadMed": "unidad ",
+        "precioUM": 19.0,
+        "tipo": "Fabricantes de ascensores",
+        "nombre": "Pujals",
+        "variacion": "12.00%",
+        "precio": 90
+    },
+    {
+        "materiales": "Tuberías",
+        "unidadMed": "metro lineal",
+        "precioUM": 15.6,
+        "tipo": "Ferretería",
+        "nombre": "Ferretería General de Construcción",
+        "variacion": "-6.00%",
+        "precio": 67
+    },
+    {
+        "materiales": "Grifería",
+        "unidadMed": "unidad",
+        "precioUM": 22.8,
+        "tipo": "Distribuidor de la marca escogida",
+        "nombre": "Wastream",
+        "variacion": "14.00%",
+        "precio": 867
+    },
+    {
+        "materiales": "Conductos de gas",
+        "unidadMed": "metro lineal",
+        "precioUM": 16.9,
+        "tipo": "Ferretería",
+        "nombre": "Ferretería General de Construcción",
+        "variacion": "3.00%",
+        "precio": 231
+    },
+    {
+        "materiales": "Boca de Extracción",
+        "unidadMed": "unidad",
+        "precioUM": 65.7,
+        "tipo": "Ferretería",
+        "nombre": "Ferretería General de Construcción",
+        "variacion": "14.00%",
+        "precio": 74
+    },
+    {
+        "materiales": "Grupo extracción ventilación",
+        "unidadMed": "unidad",
+        "precioUM": 197.1,
+        "tipo": "Ferretería",
+        "nombre": "Ferretería General de Construcción",
+        "variacion": "-13.00%",
+        "precio": 171
+    },
+    {
+        "materiales": "Calefactores",
+        "unidadMed": "unidad",
+        "tipo": "Ferretería",
+        "nombre": "Ferretería General de Construcción",
+        "variacion": "9.00%",
+        "precio": 988
+    },
+    {
+        "materiales": "Varios",
+        "unidadMed": "m3",
+        "precioUM": 1.71,
+        "tipo": "Cementera/hormigonera",
+        "nombre": "Hormigoneras Las Torres",
+        "variacion": "-6.00%",
+        "precios": [
+            {
+                "material": "Enchufe",
+                "cantidad": 34,
+                "precio": 62
+            },
+            {
+                "material": "Enchufes",
+                "cantidad": 20,
+                "precio": 72
+            },
+            {
+                "material": "Cemento",
+                "cantidad": 7,
+                "precio": 22
+            }
+        ]
+    }
+]

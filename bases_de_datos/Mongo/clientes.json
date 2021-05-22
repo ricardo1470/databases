@@ -1,0 +1,29 @@
+[
+    {
+        "nombre": "Manuela",
+        "empresa": "Ana Sanchez",
+        "nif": 4441.71,
+        "tipo": "Cementera/hormigonera",
+        "precio": 1.61
+    },
+    {
+        "nombre": "Angelo",
+        "empresa": "Isolella",
+        "nif": 6543.91,
+        "tipo": "Supermercado",
+        "precio": 8.71
+    },
+    {
+        "nombre": "Jose",
+        "empresa": "Particular",
+        "nif": "9991.31",
+        "precio": 1.61
+    },
+    {
+        "nombre": "Ada",
+        "empresa": "AFaccio",
+        "nif": 1111.11,
+        "tipo": "IT",
+        "precio": 91.1
+    }
+]

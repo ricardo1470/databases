@@ -1,0 +1,77 @@
+[
+    {
+        "servicio": "Movimiento de tierras",
+        "personal": "Topógrafo, Oficial de primera (maquinas excavadoras), Oficial de primera (replanteador), Peón (ayudante de replanteo)",
+        "empresas": "Maquinaria (para excavaciones)"
+    },
+    {
+        "servicio": "Cimentación",
+        "personal": "Topógrafo, Carpintero (Estructurista), Fábrica de hormigón, Taller de ferralla, Ferrallas, Oficial de primera (ayuda al replanteo), Peón (limpieza de obra), Bombero (bomba para hormigonar en menor tiempo)",
+        "empresas": "Fábrica hormigón, Taller de ferralla"
+    },
+    {
+        "servicio": "Estructura",
+        "personal": "Topógrafo, Carpintero (estructurista), Fábrica de hormigón, Taller de ferralla, Ferrallas, Oficial de primera (ayuda al replanteo), Peón (limpieza de obra), Bombero (bomba para hormigonar en menor tiempo), Cerrajero (solo con estructuras metálicas o pilares/vigas de acero laminado)",
+        "empresas": "Gruista, Seguridad (colocación de medidas de protección colectiva)"
+    },
+    {
+        "servicio": "Albañilería",
+        "personal": "Topógrafo, Albañil, Fábrica de cementos, Fábrica de cerámicos (ladrillos), Cerrajero (colocar cargaderos de puertas y ventanas),  Peón (limpieza y ayuda de albañilería), Gruista, Seguridad (colocación de medidas de protección colectiva)"
+    },
+    {
+        "servicio": "Cubiertas",
+        "personal": "Albañil, Fábrica de cementos, Fábrica de cerámicos (ladrillos), Cerrajero (colocar cargaderos de puertas y ventanas), Cerrajero (colocar cargaderos de puertas y ventanas), Peón (limpieza y ayuda de albañilería), Gruista, Seguridad (colocación de medidas de protección colectiva)"
+    },
+    {
+        "servicio": "Aislamiento/Impermeabilización",
+        "personal": "Oficial de primera, Oficial de segunda, Fábrica de láminas impermeables, Fábrica de capas separadoras (se ponen cuando hay materiales incompatibles), Fábrica de espumas aislantes, Fábrica de lanas minerales (aislantes), Gruista, Seguridad (colocación de medidas de protección colectiva)"
+    },
+    {
+        "servicio": "Revestimientos/Falso techo",
+        "personal": "Escayolista, Yesero, Juntero, Alicatador, Fábrica de baldosas"
+    },
+    {
+        "servicio": "Solado/Pavimento",
+        "personal": "Alicatador, Soldador"
+    },
+    {
+        "servicio": "Carpintería metálica y cerrajería",
+        "personal": "Cerrajero (no estructural), Fábrica de puertas metálicas, Fábrica de ventanas, Taller de cerrajería (decorativa, vallado, pérgolas), "
+    },
+    {
+        "servicio": "Carpintería de madera",
+        "personal": "Carpintero, Fábrica de puertas de madera, Oficial replanteador, Peón ayudante"
+    },
+    {
+        "servicio": "Vidrería",
+        "personal": "Vidriero, Fábrica de ventanas, Peón ayudante"
+    },
+    {
+        "servicio": "Pintura",
+        "personal": "Pintor, Peón ayudante, Fábrica de pinturas"
+    },
+    {
+        "servicio": "Ascensor",
+        "personal": "Instalador de ascensor, Peón ayudante, Fábrica de ascensores, Certificador de ascensores y aparatos elevadores, "
+    },
+    {
+        "servicio": "Urbanización",
+        "personal": "Albañil, Peón ayudante, Topógrado, Taller ferralla, Fábrica de hormigón, Fábrica de cerámicos (ladrillos, adoquines, baldosas), Fábrica de pinturas"
+    },
+    {
+        "servicio": "Paisajismo",
+        "personal": "Jardinero"
+    },
+    {
+        "servicio": "Instalación calefacción",
+        "personal": "Oficial instalador, Peón instalador, Distribuidora de aparatos de producción, Distribuidora de aparatos de emisión, Distribuidora de conductos, Certificación de calefacción"
+    },
+    {
+        "servicio": "Instalación solar",
+        "personal": "Oficial instalador, Peón instalador, Distribuidora de aparatos de producción, Distribuidora de conductos, Certificación de instalación solar"
+    },
+    {
+        "servicio": "Instalación electricidad",
+        "personal": "Oficial instalador, Peón instalador, Distribuidora de aparatos de producción, Distribuidora de mecanismos, Distribuidora de conductos, Distribuidora de cableado, Distribuidora de cuadros de luz, Legalización de cuadros de luz (certificado eléctrico)"
+    }
+ ] 

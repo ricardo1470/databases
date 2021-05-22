@@ -1,0 +1,131 @@
+//iniciar mongo
+mongo
+// Show help.
+help
+// Show help for database methods.
+db.help()
+// Print a list of all databases on the server.
+show dbs
+// Switch current database to <db>. The mongo shell variable db is set to the current database.
+use <db>
+// Print a list of all collections for current database.
+show collections
+// Print a list of users for current database.
+show users
+// Print a list of all roles, both user-defined and built-in, for the current database.
+show roles
+// Print the five most recent operations that took 1 millisecond or more.
+show profile
+// Print a list of all available databases.
+show databases
+// Execute a JavaScript file.
+load()
+// create database
+db = db.getSiblingDB('<database name>')
+db = db.getSiblingDB('constructora')
+// create collection
+show collections
+nombre_variable = db.nombre_collection.insertMany([{},{},{},{}])
+cliente = db.clientes.insertMany([
+    {
+        "nombre": "Manuela",
+        "empresa": "Ana Sanchez",
+        "nif": 4441.71,
+        "tipo": "Cementera/hormigonera",
+        "precio": 1.61
+    },
+    {
+        "nombre": "Angelo",
+        "empresa": "Isolella",
+        "nif": 6543.91,
+        "tipo": "Supermercado",
+        "precio": 8.71
+    },
+    {
+        "nombre": "Jose",
+        "empresa": "Particular",
+        "nif": "9991.31",
+        "precio": 1.61
+    },
+    {
+        "nombre": "Ada",
+        "empresa": "AFaccio",
+        "nif": 1111.11,
+        "tipo": "IoT",
+        "precio": 91.1
+    }
+])
+
+// recorrer la coleccion
+db.clientes.find().forEach(client => print("Nombre: " + client.nombre))
+// ver contenido de las colecciones
+db.clientes.find()
+// ver directorio activo en el Shell
+pwd()
+// cargar archivos  externos desde la shell de mongo
+load ("ruta/nombre_del_archivo/")
+load ("/home/ricardo1470/bases_de_datos/Mongo/clientes.js")
+//importar documentos de tipo json, csv o tsv, este comando se ejecuta por fuera del shell de mongo
+mongoimport --db=users --conllection=contacts --file= contacts.json
+//db = base de datos a usar
+// collections = nombre de la coleccion a importar o crear
+// file = archivo a importar
+// si el comando mongoimport no funciona instalar mongo-tools (sudo apt install mongo-tools)
+mongoimport --db=constructora --collection=proveedores --file=/home/ricardo1470/bases_de_datos/Mongo/proveedores.json --type=json --jsonArray
+mongoimport --db=constructora --collection=clientes --file=/home/ricardo1470/bases_de_datos/Mongo/clientes.json --type=json --jsonArray
+mongoimport --db=constructora --collection=materiales --file=/home/ricardo1470/bases_de_datos/Mongo/materiales.json --type=json --jsonArray
+mongoimport --db=constructora --collection=servicios --file=/home/ricardo1470/bases_de_datos/Mongo/servicios.json --type=json --jsonArray
+mongoimport --db=constructora --collection=personal --file=/home/ricardo1470/bases_de_datos/Mongo/personal.json --type=json --jsonArray
+// eliminar collection
+db.name_collection.drop()
+db.proveedores.drop()
+//crear un unico registro
+variable = db.collection.insertOne({})
+cliente = db.clientes.insertOne(
+    {
+        "nombre": "Khaterine",
+        "empresa": "America",
+        "nif": 1111.11,
+        "tipo": "IoT",
+        "precio": 51.1
+    }
+)
+//operdor de proyeccion
+db.proveedores.find({"materiales": "Varios", "precios.cantidad":{$lt: 30}}, {"precios.$": 1}).pretty()
+// operador de comparacion
+db.proveedores.find({"materiales":{$eq:"Ventanas"}}).pretty()
+
+db.proveedores.find({"materiales":"Enchufes y cemento", "cantidades":{$in: [40, 48]}}).pretty()
+
+//operadores logicos: or, and, not,nor
+db.proveedores.find({$or: [{"materiales": {$eq: "Ventanas"}}, {"precio": 546}]}).pretty()
+//operadores de consulta
+db.proveedores.find({"materiales": {$exists: true}}).pretty()
+
+db.proveedores.find({"materiales": {$type: "string"}}).pretty()
+//condiciones sobre array
+db.proveedores.find({"cantidades": {$all: [42, 48, 40, 56, 76]}}).pretty()
+
+db.proveedores.find({"cantidades": {$size: 5}}).pretty()
+//notacion punto
+db.proveedores.find({"precios.precio": 32}).pretty()
+//precios menores que
+db.proveedores.find({"precios.precio": {$lt: 53}}).pretty()
+// cursores mongo
+db.clientes.find().count()
+db.clientes.find().sort({"precio":1})
+db.clientes.find().sort({"precio":-1})
+db.clientes.find().sort({"precio":1}).limit(2)
+db.clientes.find().sort({"precio":-1}).limit(2)
+db.clientes.find().sort({"precio":1}).skip(2)
+//cursor pretty()
+db.clientes.find().pretty()
+//cursor size(), cursor explain()
+db.clientes.find().skip(2).size()
+db.clientes.find().explain()
+//crear usuario
+db.createUser({user: "AdminUser", pwd: passwordPront().roles: [{role: "readWrite", db: "admin"}, "readWrite" ]})
+
+//customize prompt
+host = db.serverStatus().host
+prompt = function() {return db + "@" + host + " => ";}

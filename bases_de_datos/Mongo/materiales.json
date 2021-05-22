@@ -1,0 +1,243 @@
+[
+    {
+        "Materiales": "Cementos",
+        "Unidad de medida": "m3",
+        "Precio por unidad de medida": "1.71",
+        "Tipo de proveedor": "Cementera/hormigonera",
+        "Nombre": "Hormigoneras Las Torres",
+        "Variación de precio": "-6.00%",
+        "Precio": "1.61 "
+    },
+    {
+        "Materiales": "Hormigón",
+        "Unidad de medida": "m3",
+        "Precio por unidad de medida": "47.30 ",
+        "Tipo de proveedor": "Cementera/hormigonera",
+        "Nombre": "Hormigoneras Las Torres",
+        "Variación de precio": "-11.00%",
+        "Precio": "42.10 "
+    },
+    {
+        "Materiales": "Cerámicos (ladrillos, adoquines, baldosas)",
+        "Unidad de medida": "ud (aunque siempre debemos completar los palets)",
+        "Precio por unidad de medida": "0.06 ",
+        "Tipo de proveedor": "Fábrica de cerámicos",
+        "Nombre": "Cementos y Hormigones - Hermanos Pintero",
+        "Variación de precio": "7.00%",
+        "Precio": "0.06 "
+    },
+    {
+        "Materiales": "Láminas impermeables",
+        "Unidad de medida": "m2",
+        "Precio por unidad de medida": "6.07",
+        "Tipo de proveedor": "Fábrica de aislamientos",
+        "Nombre": "Aislamientos Barrera",
+        "Variación de precio": "-8.00%",
+        "Precio": "5.58 "
+    },
+    {
+        "Materiales": "Capas separadoras (para materiales incompatibles)",
+        "Unidad de medida": "m2",
+        "Precio por unidad de medida": "4.56 ",
+        "Tipo de proveedor": "Fábrica de aislamientos",
+        "Nombre": "Aislamientos Barrera",
+        "Variación de precio": "3.00%",
+        "Precio": "4.70 "
+    },
+    {
+        "Materiales": "Espumas aislantes",
+        "Unidad de medida": "m3",
+        "Precio por unidad de medida": "17.20 ",
+        "Tipo de proveedor": "Fábrica de aislamientos",
+        "Nombre": "Aislamientos Barrera",
+        "Variación de precio": "0.00%",
+        "Precio": "17.20 "
+    },
+    {
+        "Materiales": "Lanas minerales (aislantes)",
+        "Unidad de medida": "m2",
+        "Precio por unidad de medida": "8.37 ",
+        "Tipo de proveedor": "Fábrica de aislamientos",
+        "Nombre": "Aislamientos Barrera",
+        "Variación de precio": "-5.00%",
+        "Precio": "7.95 "
+    },
+    {
+        "Materiales": "Baldosas",
+        "Unidad de medida": "m2",
+        "Precio por unidad de medida": "18.50 ",
+        "Tipo de proveedor": "Fábrica de cerámicos",
+        "Nombre": "Cerámicas Talamocha",
+        "Variación de precio": "5.00%",
+        "Precio": "19.43 "
+    },
+    {
+        "Materiales": "Ventanas",
+        "Unidad de medida": "m2",
+        "Precio por unidad de medida": "17.50 ",
+        "Tipo de proveedor": "Carpintería",
+        "Nombre": "Luzysol",
+        "Variación de precio": "-1.00%",
+        "Precio": "54.00 "
+    },
+    {
+        "Materiales": "Puertas metálicas",
+        "Unidad de medida": "m2",
+        "Precio por unidad de medida": "18.55 ",
+        "Tipo de proveedor": "Carpintería",
+        "Nombre": "Irongate",
+        "Variación de precio": "8.00%",
+        "Precio": "53.00 "
+    },
+    {
+        "Materiales": "Puertas de madera",
+        "Unidad de medida": "unidad",
+        "Precio por unidad de medida": "38.50 ",
+        "Tipo de proveedor": "Carpintería",
+        "Nombre": "Carpinterías Mungyl",
+        "Variación de precio": "-5.00%",
+        "Precio": "54.00 "
+    },
+    {
+        "Materiales": "Pinturas",
+        "Unidad de medida": "m2",
+        "Precio por unidad de medida": "180.50 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería Industrial de Construcción",
+        "Variación de precio": "-6.00%",
+        "Precio": "88.00 "
+    },
+    {
+        "Materiales": "Ascensores",
+        "Unidad de medida": "unidad ",
+        "Precio por unidad de medida": "19.00 ",
+        "Tipo de proveedor": "Fabricantes de ascensores",
+        "Nombre": "Pujals",
+        "Variación de precio": "12.00%",
+        "Precio": "90.00 "
+    },
+    {
+        "Materiales": "Tuberías",
+        "Unidad de medida": "metro lineal",
+        "Precio por unidad de medida": "15.60 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "-6.00%",
+        "Precio": "87.00 "
+    },
+    {
+        "Materiales": "Cableado eléctrico (generales)",
+        "Unidad de medida": "metro lineal",
+        "Precio por unidad de medida": "18.50 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "-2.00%",
+        "Precio": "87.00 "
+    },
+    {
+        "Materiales": "Cuadros eléctricos",
+        "Unidad de medida": "unidad (a veces se incluye la parte proporcional de metro lineal de cableado)",
+        "Precio por unidad de medida": "18.50 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "10.00%",
+        "Precio": "87.00 "
+    },
+    {
+        "Materiales": "Enchufes",
+        "Unidad de medida": "unidad (a veces se incluye la parte proporcional de metro lineal de cableado)",
+        "Precio por unidad de medida": "18.50 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "-9.00%",
+        "Precio": "87.00 "
+    },
+    {
+        "Materiales": "Conducciones de agua",
+        "Unidad de medida": "metro lineal",
+        "Precio por unidad de medida": "33.50 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "10.00%",
+        "Precio": "87.00 "
+    },
+    {
+        "Materiales": "Sanitarios",
+        "Unidad de medida": "unidad",
+        "Precio por unidad de medida": "18.50 ",
+        "Tipo de proveedor": "Distribuidor de la marca escogida",
+        "Nombre": "Piedra",
+        "Variación de precio": "-5.00%",
+        "Precio": "867.00 "
+    },
+    {
+        "Materiales": "Grifería",
+        "Unidad de medida": "unidad",
+        "Precio por unidad de medida": "22.80 ",
+        "Tipo de proveedor": "Distribuidor de la marca escogida",
+        "Nombre": "Wastream",
+        "Variación de precio": "14.00%",
+        "Precio": "867.00 "
+    },
+    {
+        "Materiales": "Conductos de gas",
+        "Unidad de medida": "metro lineal",
+        "Precio por unidad de medida": "16.90 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "3.00%",
+        "Precio": 231.00
+    },
+    {
+        "Materiales": "Boca de Extracción",
+        "Unidad de medida": "unidad",
+        "Precio por unidad de medida": "65.70 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "14.00%",
+        "Precio": 74.90
+    },
+    {
+        "Materiales": "Grupo extracción ventilación",
+        "Unidad de medida": "unidad",
+        "Precio por unidad de medida": "197.11 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "-13.00%",
+        "Precio": 171.49
+    },
+    {
+        "Materiales": "Conductos de ventilación",
+        "Unidad de medida": "metro lineal",
+        "Precio por unidad de medida": "13.71 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "9.00%",
+        "Precio": 14.94
+    },
+    {
+        "Materiales": "Calefactores",
+        "Unidad de medida": "unidad",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "9.00%",
+        "Precio": 67
+    },
+    {
+        "Materiales": "Calentadores",
+        "Unidad de medida": "m2",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "4.00%",
+        "Precio": 566
+    },
+    {
+        "Materiales": "Climatizadores",
+        "Unidad de medida": "Número Dormitorios",
+        "Precio por unidad de medida": "1,450.00 ",
+        "Tipo de proveedor": "Ferretería",
+        "Nombre": "Ferretería General de Construcción",
+        "Variación de precio": "-15.00%",
+        "Precio": 1232
+    }
+]

@@ -1,0 +1,428 @@
+[
+    {
+        "materiales": "Topógrafo",
+        "proveedor": "Estudio de Topografía o autonomo",
+        "horario": "Días y horas",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Arquitecto",
+        "proveedor": "Estudio de Arquitectura",
+        "horario": "Proyecto",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Delineante",
+        "proveedor": "Estudio de Arquitectura",
+        "horario": "Proyecto",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Ingeniero instalaciones",
+        "proveedor": "Estudio de Arquitectura o subcontrata",
+        "horario": "Proyecto",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Ingeniero estructuras",
+        "proveedor": "Estudio de Arquitectura o subcontrata",
+        "horario": "Proyecto",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Jefe de obra",
+        "proveedor": "Constructora",
+        "horario": "Proyecto",
+        "euro": 25.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Nina S.A."
+    },
+    {
+        "materiales": "Jefe de Producción",
+        "proveedor": "Constructora",
+        "horario": "Proyecto",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Encargado de obra",
+        "proveedor": "Constructora",
+        "horario": "Proyecto",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Capataz de obra",
+        "proveedor": "Constructora",
+        "horario": "Proyecto",
+        "euro": 26.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Albañil",
+        "proveedor": "Constructora",
+        "horario": "Días",
+        "euro": 27.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Albañil",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 27.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Albañil de cubiertas",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 27.82,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Oficial de primera para aislamiento",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 27.82,
+        "especializado": "PRL trabajos aislamiento e impermeabilización",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Oficial de segunda para aislamiento",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 27.82,
+        "especializado": "PRL trabajos aislamiento e impermeabilización",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Oficial de primera (maquinas excavadoras)",
+        "horario": "Días",
+        "euro": 27.82,
+        "especializado": "PRL operadores de vehículos y maquinaria de mov. de tierras",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Oficial de primera (replanteador)",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 27.82,
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Carpintero (estructurista)",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL trabajos en altura",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Gruista",
+        "proveedor": "Constructora",
+        "horario": "Días",
+        "euro": 28.9,
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Peón ayudante de replanteo",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Montador particiones secas",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "especializado": "PRL Específico montador de placa de yeso laminado, escayola y asimilados.",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Escayolista",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Yesero",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "especializado": "PRL Escpecífica revestimiento de yeso",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Juntero",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "especializado": "PRL Escpecífica revestimiento de yeso",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Alicatador de revestimiento",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "especializado": "PRL para trabajos de solados-alicatados",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Alicatador de solado",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "especializado": "PRL para trabajos de solados-alicatados",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Cerrajero no estructural",
+        "proveedor": "Cerrajería",
+        "horario": "Días",
+        "euro": 25.48,
+        "especializado": "Soldador homologado",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Carpintero",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.48,
+        "especializado": "PRL de trabajos con madera",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Oficial replanteador",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 25.77,
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Peón de carpintería",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL de trabajos con madera",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Vidriero",
+        "proveedor": "Cristalero",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para oficios de ventanas y acristalamientos",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Peón de vidriería",
+        "proveedor": "Cristalero",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para oficios de ventanas y acristalamientos",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Pintor",
+        "proveedor": "Autonomo o empresa",
+        "horario": "Días",
+        "euro": 25.77,
+        "especializado": "PRL trabajos de pintura",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Peon de pintura",
+        "proveedor": "Autonomo o empresa",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL trabajos de pintura",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Instalador de ascensor",
+        "proveedor": "Subcontrata o mano de obra de la marca de ascensor",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL trabajos instalación ascensor",
+        "empresas": "Constructora Maya S.A."
+    },
+    {
+        "materiales": "Peón de ascensores",
+        "proveedor": "Subcontrata o mano de obra de la marca de ascensor",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL trabajos instalación ascensor",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Albañil de urbanización",
+        "proveedor": "Albañilería ",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL específico según el tipo de urbanización, ladrillo, hormigón...",
+        "empresas": "Contructora Bruno y Nina S.L"
+    },
+    {
+        "materiales": "Peon de urbanización",
+        "proveedor": "Albañilería",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL específico según el tipo de urbanización, ladrillo, hormigón...",
+        "empresas": "Contructora Maya S.A."
+    },
+    {
+        "materiales": "Jardinero",
+        "proveedor": "Jardinería",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL trabajos de jardinería y zonas verdes",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Oficial instalador de calefacción",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Peón instalador de calefacción",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Maya S.A."
+    },
+    {
+        "materiales": "Oficial instalador de solar",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Bruno y Nina S.L."
+    },
+    {
+        "materiales": "Peón instalador de solar",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Comercia S.A."
+    },
+    {
+        "materiales": "Oficial instalador saneamiento enterrado",
+        "proveedor": "Pocero",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para trabajos en redes de abastecimiento y saneamiento y pocería",
+        "empresas": "Contructora Maya S.A."
+    },
+    {
+        "materiales": "Peón instalador saneamiento enterrado",
+        "proveedor": "Pocero",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para trabajos en redes de abastecimiento y saneamiento y pocería",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Oficial instalador fontanería",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Pepa S.A."
+    },
+    {
+        "materiales": "Peon instalador fontanería",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Oficial instalador de electricidad",
+        "proveedor": "Electricista",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para trabajos de electricidad, montaje y mantenimiento de inst. eléctricas de alta y baja tensión",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Peón instalador de electricidad",
+        "proveedor": "Electricista",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para trabajos de electricidad, montaje y mantenimiento de inst. eléctricas de alta y baja tensión",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Oficial instalador de domótica",
+        "proveedor": "Electricista",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "Oficial instalador de electricidad",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Peón instalador de domótica",
+        "proveedor": "Electricista",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "Peón instalador de electricidad",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Oficial instalador de ventilación forzada",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Peón instalador de ventilación forzada",
+        "proveedor": "Fontanería",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para trabajos de fontanería, instalaciones de calefacción-climatización, instalaciones de ACS y solar térmica",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Oficial instalador de gas",
+        "proveedor": "Instalador de gas",
+        "horario": "Días",
+        "euro": 26.49,
+        "especializado": "PRL para trabajos en gasoductos y redes de distribución de gases combustibles",
+        "empresas": "Contructora Trufa S.A."
+    },
+    {
+        "materiales": "Peón instalador de gas",
+        "proveedor": "Instalador de gas",
+        "horario": "Días",
+        "euro": 21.43,
+        "especializado": "PRL para trabajos en gasoductos y redes de distribución de gases combustibles",
+        "empresas": "Contructora Maya S.A."
+    }
+ ] 
