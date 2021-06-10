@@ -8,6 +8,10 @@
     "dev": "nodemon src",
     "start": "node src"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo1470/databases/tree/main/bases_de_datos/mongoose"
+  },
   "author": "Ricardo Camayo",
   "license": "ISC",
   "devDependencies": {
