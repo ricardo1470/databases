@@ -1,0 +1,25 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "first steps with mongose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src",
+    "start": "node src"
+  },
+  "author": "Ricardo Camayo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "http-errors": "^1.7.2",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
