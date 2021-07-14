@@ -59,6 +59,28 @@ USE mysql;
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'your password here';
 quit
 
+# solution to problem 1524
+sudo /etc/init.d/mysql stop
+sudo mysqld_safe --skip-grant-tables &
+# enter -> go
+mysql -uroot 
+
+# these commands are entered in the mysql shell
+use mysql;
+update user set authentication_string=PASSWORD("your password here") where User='root';
+update user set plugin="mysql_native_password" where User='root';
+flush privileges;
+quit;
+
+sudo pkill mysqld
+sudo service mysql start
+sudo service mysql status
+
+mysql -u root -p
+
+#enter your password
+---------------------------
+
 #if you have this message as a response (Your password does not satisfy the current policy requirements), run these commands
 
 SHOW VARIABLES LIKE 'validate_password%';
@@ -83,7 +105,7 @@ quit
 # Restart the MySQL server:
 
 sudo pkill mysqld
-sudo service start mysql
+sudo service mysql start
 
 # At this point you should be able to login to the MySQL server with the password as set in the
 
