@@ -39,7 +39,7 @@ sudo apt install mysql-server
 # reset password default MySQL V8
 
 # Start MySQL without grant tables option. This will allow us to login to MySQL as a root user without a password:
-sudo systemctl stop mysql
+sudo systemctl mysql stop
 sudo mkdir -p /var/run/mysqld
 sudo chown mysql:mysql /var/run/mysqld
 sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &

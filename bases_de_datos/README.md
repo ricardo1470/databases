@@ -40,6 +40,7 @@ USE DATABASE (NOMBRE DE LA BASE DE DATOS);
 ---
 > ## Mongo
 * `sudo service mongodb start`
+* `sudo service mongodb status`
     ** iniciar mongo db: `mongo`
 ---
 > ## FireBase
