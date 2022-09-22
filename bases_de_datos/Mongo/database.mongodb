@@ -129,3 +129,99 @@ db.createUser({user: "AdminUser", pwd: passwordPront().roles: [{role: "readWrite
 //customize prompt
 host = db.serverStatus().host
 prompt = function() {return db + "@" + host + " => ";}
+
+// relacionar 3 colecciones
+db.clientes.aggregate([
+    {
+        $lookup: {
+            from: "proveedores",
+            localField: "empresa",
+            foreignField: "nombre",
+            as: "proveedor"
+        }
+    }
+]).pretty()
+
+// relacionar 5 colecciones
+db.clientes.aggregate([
+    {
+        $lookup: {
+            from: "proveedores",
+            localField: "empresa",
+            foreignField: "nombre",
+            as: "proveedor"
+        }
+    },
+    {
+        $lookup: {
+            from: "materiales",
+            localField: "proveedor.materiales",
+            foreignField: "nombre",
+            as: "material"
+        }
+    },
+    {
+        $lookup: {
+            from: "servicios",
+            localField: "proveedor.servicios",
+            foreignField: "nombre",
+            as: "servicio"
+        }
+    },
+    {
+        $lookup: {
+            from: "personal",
+            localField: "proveedor.personal",
+            foreignField: "nombre",
+            as: "personal"
+        }
+    }
+]).pretty()
+
+// relacionar 2 colecciones
+db.clientes.aggregate([
+    {
+        $lookup: {
+            from: "proveedores",
+            localField: "empresa",
+            foreignField: "nombre",
+            as: "proveedor"
+        }
+    },
+    {
+        $lookup: {
+            from: "materiales",
+            localField: "proveedor.materiales",
+            foreignField: "nombre",
+            as: "material"
+        }
+    }
+]).pretty()
+
+// relacionar 3 colecciones
+db.clientes.aggregate([
+    {
+        $lookup: {
+            from: "proveedores",
+            localField: "empresa",
+            foreignField: "nombre",
+            as: "proveedor"
+        }
+    },
+    {
+        $lookup: {
+            from: "materiales",
+            localField: "proveedor.materiales",
+            foreignField: "nombre",
+            as: "material"
+        }
+    },
+    {
+        $lookup: {
+            from: "servicios",
+            localField: "proveedor.servicios",
+            foreignField: "nombre",
+            as: "servicio"
+        }
+    }
+]).pretty()
