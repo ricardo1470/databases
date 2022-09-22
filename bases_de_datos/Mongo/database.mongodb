@@ -130,18 +130,6 @@ db.createUser({user: "AdminUser", pwd: passwordPront().roles: [{role: "readWrite
 host = db.serverStatus().host
 prompt = function() {return db + "@" + host + " => ";}
 
-// relacionar 3 colecciones
-db.clientes.aggregate([
-    {
-        $lookup: {
-            from: "proveedores",
-            localField: "empresa",
-            foreignField: "nombre",
-            as: "proveedor"
-        }
-    }
-]).pretty()
-
 // relacionar 5 colecciones
 db.clientes.aggregate([
     {
